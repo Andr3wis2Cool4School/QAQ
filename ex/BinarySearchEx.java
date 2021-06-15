@@ -3,7 +3,7 @@ public class BinarySearchEx {
         int L = 0;
         int R = array.length - 1;
         while(L <= R){
-            int mid = L + (R - L); // 2
+            int mid = L + (R - L) / 2; // 2
             if (array[mid] == target) {
                 return mid;
             } else if (array[mid] < target){
